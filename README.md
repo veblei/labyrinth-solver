@@ -2,14 +2,10 @@
 
 This project was developed in Windows 10 using the "Project Manager for Java" extension for Visual Studio Code.
 
-## Setup
+## Dependencies
 
-1. Download dependencies.
-    - JDK 22
-    - JavaFX 22
-1. Clone this repository.
-2. Create a "lib" folder within this project.
-3. Copy JavaFX .jar-files into the newly created "lib" folder.
+- JDK 22
+- JavaFX 22
 
 ## Run from command line
 

@@ -1,10 +1,10 @@
 package labyrinthsolver;
 
 import javafx.application.Application;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
-import javafx.stage.FileChooser;
 import javafx.scene.layout.GridPane;
 import javafx.scene.control.Button;
 import javafx.scene.text.Text;
@@ -51,19 +51,19 @@ public class Main extends Application {
       System.out.println("ERROR: Could not read from " + file.getPath());
       System.exit(1);
     }
-    
+
     Button resetButton = new Button("Reset");
     resetButton.setLayoutX(10);
     resetButton.setLayoutY(10);
     ResetHandler reset = new ResetHandler();
     resetButton.setOnAction(reset);
-    
+
     Button otherRouteButton = new Button("Switch route");
     otherRouteButton.setLayoutX(10);
     otherRouteButton.setLayoutY(40);
     RouteHandler otherRoute = new RouteHandler();
     otherRouteButton.setOnAction(otherRoute);
-    
+
     statusInfo = labyrinth.getStatusInfo();
     statusInfo.setFont(new Font(15));
     statusInfo.setLayoutX(10);
@@ -77,7 +77,7 @@ public class Main extends Application {
     GridPane grid = labyrinth.createGrid();
     grid.setLayoutX(0);
     grid.setLayoutY(125);
-    grid.setPadding(new Insets(10,10,10,10));
+    grid.setPadding(new Insets(10, 10, 10, 10));
 
     Pane pane = new Pane();
     pane.getChildren().add(grid);

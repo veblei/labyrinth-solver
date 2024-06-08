@@ -4,9 +4,9 @@ A Java program that takes a labyrinth as input and finds a route out of it from 
 
 The input files are stored in the *inputs*-folder. The first line specify the amount of columns and rows in the labyrinth. The remaining file consists of symbols. The #-symbol signifies a black square, i.e. a wall in the labyrinth. The .-symbol signifies a white square, i.e. an available square that can be used to find a route through the labyrinth.
 
-Once the program is launched, you can click on any white square within the labyrinth and the program will automatically find the shortest available route out of the labyrinth from the given square.
+Once the program is launched, the file explorer opens inside the *inputs*-folder. Pick one of the files and the program will open it in the JavaFX GUI. Once launched, you can click on any white square within the labyrinth and the program will automatically find the shortest available route out of the labyrinth from the given square.
 
-<img src="screenshots/image2.png" height="500px"/>
+<img src="image.png" height="500px"/>
 
 ## Dependencies
 

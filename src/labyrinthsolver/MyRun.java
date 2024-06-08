@@ -6,11 +6,11 @@ public class MyRun implements Runnable {
   private Square previousSquare;
   private String coordinates;
 
-  public MyRun(MyMonitor m, Square start, Square prev, String coords) {
+  public MyRun(MyMonitor m, Square s, Square p, String c) {
     monitor = m;
-    startSquare = start;
-    previousSquare = prev;
-    coordinates = coords;
+    startSquare = s;
+    previousSquare = p;
+    coordinates = c;
   }
 
   @Override

@@ -1,6 +1,6 @@
 # Labyrinth Solver
 
-A Java program that takes a labyrinth as input and finds a route out of it from a given square.
+A Java program that takes a labyrinth as input and finds a route out of it from a given square. Utilizes linked lists and threads to solve the labyrinths.
 
 The input files are stored in the *inputs*-folder. The first line specify the amount of columns and rows in the labyrinth. The remaining file consists of symbols. The #-symbol signifies a black square, i.e. a wall in the labyrinth. The .-symbol signifies a white square, i.e. an available square that can be used to find a route through the labyrinth.
 

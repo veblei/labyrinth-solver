@@ -10,11 +10,10 @@ Once the program is launched, the file explorer opens inside the *inputs*-folder
 
 ## Dependencies
 
-- Java Development Kit (e.g. JDK 22)
-- JavaFX (e.g. JavaFX 22)
+- JDK 22
+- JavaFX 22
 
 ## Run from command line
 ```
-java -cp ./bin --module-path <JavaFX_lib_path> --add-modules javafx.controls --enable-preview labyrinthsolver.Main
+java -cp ./bin --module-path <your_JavaFX_lib_path> --add-modules javafx.controls --enable-preview labyrinthsolver.Main
 ```
-Insert your own path for the javafx lib folder.

@@ -15,6 +15,6 @@ Once the program is launched, the file explorer opens inside the *inputs*-folder
 
 ## Run from command line
 ```
-java -cp ./bin --module-path <your_JavaFX_lib_path> --add-modules javafx.controls --enable-preview labyrinthsolver.Main
+java -cp ./bin --module-path "C:\Program Files\Java\javafx-sdk-22.0.1" --add-modules javafx.controls --enable-preview labyrinthsolver.Main
 ```
-JavaFX is usually installed in C:\Program Files\Java.
+Check your downloaded JavaFX version before running.
